@@ -1,0 +1,52 @@
+#container {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    outline: 2px solid #000;
+    margin: auto;
+    padding: 0;
+    border: none;
+    font-size: 0;
+    overflow: hidden;
+}
+
+.contain {
+    
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: 1px solid #000;
+    display: inline-block;
+}
+
+h1 {
+    text-align: center;
+}
+
+#colourBox {
+    max-width: 400px;
+    border: 2px solid gray;
+    background-color: aqua;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    border-radius: 8px;
+    font-size: 14px;
+    margin: auto;  
+}
+
+button:hover{
+    background-color: #80bfff;
+}
+
+button:focus{
+    background-color:rgb(0, 255, 200);
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+
+}
